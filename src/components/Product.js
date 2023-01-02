@@ -33,7 +33,7 @@ function Product({ id, title, price, description, category, image }) {
 				<Currency quantity={price * 99.77} symbol="₹" />
 			</div>
 
-			{hasPrime && (
+			{/* {hasPrime && (
 				<div className="flex items-center space-x-2 -mt-5 ">
 					<img
 						className="w-12"
@@ -44,7 +44,7 @@ function Product({ id, title, price, description, category, image }) {
 						FREE Next-day Delivery
 					</p>
 				</div>
-			)}
+			)} */}
 
 			<button className="mt-auto button">Add to Basket</button>
 		</div>
